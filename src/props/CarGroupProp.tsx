@@ -3,6 +3,10 @@ import { useState } from "react";
 const CarGroupProp = ({ carBrands, heading }: any) => {
   let [selectedIndex, setSelectedIndex] = useState(-1);
 
+  const handleSelectItem = (car: any) => {
+    console.log(car);
+  };
+
   return (
     <>
       <h1>{heading}</h1>
@@ -17,6 +21,7 @@ const CarGroupProp = ({ carBrands, heading }: any) => {
                 : "list-group-item"
             }
             onClick={() => {
+              handleSelectItem(car);
               setSelectedIndex(index);
             }}
           >

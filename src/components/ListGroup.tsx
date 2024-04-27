@@ -20,6 +20,7 @@ const ListGroup = () => {
     "Mercedez Benz",
     "Rolls Royce"
   ];
+
   return (
     <div>
       {cityNames.length === 0 && <p>No List Found</p>}

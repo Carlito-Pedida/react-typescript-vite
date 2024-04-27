@@ -3,6 +3,10 @@ import { useState } from "react";
 const ListGroupProp = ({ cityNames, heading }: any) => {
   let [selectedIndex, setSelectedIndex] = useState(-1);
 
+  const handleSelectItem = (city: any) => {
+    console.log(city);
+  };
+
   return (
     <>
       <h1>{heading}</h1>
@@ -18,6 +22,7 @@ const ListGroupProp = ({ cityNames, heading }: any) => {
             }
             onClick={() => {
               setSelectedIndex(index);
+              handleSelectItem(city);
             }}
           >
             {city}

@@ -3,6 +3,10 @@ import { useState } from "react";
 const ColorGroupProp = ({ colorNames, heading }: any) => {
   let [selectedIndex, setSelectedIndex] = useState(-1);
 
+  const handleSelectItem = (color: any) => {
+    console.log(color);
+  };
+
   return (
     <>
       <h1>{heading}</h1>
@@ -17,6 +21,7 @@ const ColorGroupProp = ({ colorNames, heading }: any) => {
                 : "list-group-item"
             }
             onClick={() => {
+              handleSelectItem(color);
               setSelectedIndex(index);
             }}
           >
