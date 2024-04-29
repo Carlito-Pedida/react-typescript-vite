@@ -4,7 +4,12 @@ import { zodResolver } from "@hookform/resolvers/zod";
 
 const schema = z.object({
   city: z.string().min(3, { message: "Location field is required!" }),
-  zipcode: z.number({ invalid_type_error: "Age field is required" })
+  zipcode: z
+    .string()
+    .min(1, { message: "Zipcode field is required!" })
+    .refine((value) => /^\d{5}$/.test(value), {
+      message: "ZIP code must be exactly 5 digits long"
+    })
 });
 
 type FormData = z.infer<typeof schema>;
@@ -39,7 +44,7 @@ const Form3 = () => {
               Zipcode
             </label>
             <input
-              {...register("zipcode", { valueAsNumber: true })}
+              {...register("zipcode")}
               id="zipcode"
               type="number"
               className="form-control"
