@@ -1,15 +1,15 @@
 // import Alert from "./components/Alert";
-import Alert from "./components/Alert";
-import ExpandableText from "./components/ExpandableText";
-import Form from "./components/Form";
-import Form2 from "./components/Form2";
-import Form3 from "./components/Form3";
-import ListGroup from "./components/ListGroup";
+// import Alert from "./components/Alert";
+// import ExpandableText from "./components/ExpandableText";
+// import Form from "./components/Form";
+// import Form2 from "./components/Form2";
+// import Form3 from "./components/Form3";
+// import ListGroup from "./components/ListGroup";
 
 const App = () => {
   return (
     <div>
-      <Alert />
+      {/* <Alert />
       <ListGroup />
       <ExpandableText>
         Bacon ipsum dolor amet frankfurter beef bresaola filet mignon beef ribs
@@ -31,7 +31,7 @@ const App = () => {
       </ExpandableText>
       <Form />
       <Form2 />
-      <Form3 />
+      <Form3 /> */}
     </div>
   );
 };
