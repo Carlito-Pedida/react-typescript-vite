@@ -6,7 +6,24 @@
 // import Form3 from "./components/Form3";
 // import ListGroup from "./components/ListGroup";
 
+import { useState } from "react";
+import ExpenseList from "./expence_tracker/componenents/ExpenseList";
+import ExpenseFilter from "./expence_tracker/componenents/ExpenseFilter";
+import ExpenseForm from "./expence_tracker/componenents/ExpenseForm";
+
 const App = () => {
+  const [selectedCategory, setSelectedCategory] = useState("");
+  const [expenses, setEspenses] = useState([
+    { id: 1, description: "aaa", amount: 10, category: "Utilities" },
+    { id: 2, description: "bbb", amount: 10, category: "Groceries" },
+    { id: 3, description: "ccc", amount: 10, category: "Utilities" },
+    { id: 4, description: "ddd", amount: 10, category: "Entertainment" }
+  ]);
+
+  const visibleCategory = selectedCategory
+    ? expenses.filter((e) => e.category === selectedCategory)
+    : expenses;
+
   return (
     <div>
       {/* <Alert />
@@ -32,6 +49,22 @@ const App = () => {
       <Form />
       <Form2 />
       <Form3 /> */}
+      <div className="mb-5">
+        <ExpenseForm
+          onSubmit={(expense) =>
+            setEspenses([...expenses, { ...expense, id: expenses.length + 1 }])
+          }
+        />
+      </div>
+      <div className="mb-3">
+        <ExpenseFilter
+          onSelectCategory={(category) => setSelectedCategory(category)}
+        />
+      </div>
+      <ExpenseList
+        onDelete={(id) => setEspenses(expenses.filter((e) => e.id !== id))}
+        expenses={visibleCategory}
+      />
     </div>
   );
 };
