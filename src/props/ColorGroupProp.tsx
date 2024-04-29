@@ -21,7 +21,7 @@ const ColorGroupProp = ({ colorNames, heading }: any) => {
                 : "list-group-item"
             }
             onClick={() => {
-              handleSelectItem(color);
+              handleSelectItem;
               setSelectedIndex(index);
             }}
           >

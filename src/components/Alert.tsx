@@ -1,13 +1,13 @@
 import AlertProp from "../props/AlertProp";
+import "../App.css";
 
 const Alert = () => {
   return (
     <div>
-      <div className="m-3 alert alert-primary" role="alert">
+      <div className="m-3 alert-primary" role="alert">
         <AlertProp>
-          Hello{" "}
           <h4>
-            <span>World</span>
+            Hello <span>World</span>
           </h4>
         </AlertProp>
       </div>
