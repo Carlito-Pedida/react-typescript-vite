@@ -1,6 +1,9 @@
 // import Alert from "./components/Alert";
 import Alert from "./components/Alert";
 import ExpandableText from "./components/ExpandableText";
+import Form from "./components/Form";
+import Form2 from "./components/Form2";
+import Form3 from "./components/Form3";
 import ListGroup from "./components/ListGroup";
 
 const App = () => {
@@ -17,7 +20,7 @@ const App = () => {
         cow bacon capicola. Sausage corned beef shankle meatloaf pork loin flank
         pancetta spare ribs pastrami chislic tri-tip. Pancetta biltong meatloaf
         pork belly sirloin, boudin ham hock leberkas prosciutto ribeye. Buffalo
-        picanha frankfurter bacon jerky pork. Chicken capicola boudin, meatloaf
+        picanha frankfurter bacon jerky pork.Chicken capicola boudin, meatloaf
         drumstick bacon corned beef sirloin ham. Frankfurter spare ribs shankle
         cow ribeye pork chop. Shank ham hock pastrami boudin strip steak
         drumstick cupim sausage picanha ribeye cow venison salami pork loin
@@ -26,6 +29,9 @@ const App = () => {
         short loin boudin tri-tip leberkas ham hock ground round hamburger strip
         steak pastrami.
       </ExpandableText>
+      <Form />
+      <Form2 />
+      <Form3 />
     </div>
   );
 };
