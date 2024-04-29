@@ -1,4 +1,8 @@
 .textSummary {
-  width: 70%;
+  width: 80%;
   margin: auto;
+  padding: 20px;
+
+  border-radius: 15px;
+  background-color: rgb(228, 228, 228);
 }

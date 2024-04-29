@@ -13,9 +13,9 @@ const ExpandableText = ({ children, maxChars = 200 }: Props) => {
   return (
     <div className={`my-3 ${styles.textSummary}`}>
       <h5>
-        {summary}...{" "}
+        {isExpanded ? summary : `${summary}...`}{" "}
         <button onClick={() => setExpanded(!isExpanded)}>
-          {isExpanded ? "Less" : "More"}
+          {isExpanded ? "<<< Less" : "More >>>"}
         </button>
       </h5>
     </div>
