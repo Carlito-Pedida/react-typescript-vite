@@ -4,7 +4,10 @@
 
 # Exercises 1 GETTING STARTED AND BUILDING COMPONENTS
 <ul>
-React Ecosystem
+  <li>
+    React Ecosystem
+  </li>
+
 List-group
 Fragments
 Conditional Rendering
