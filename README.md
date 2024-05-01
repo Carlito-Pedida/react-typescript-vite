@@ -30,7 +30,7 @@ Exercise 3 MANAGING COMPONENT STATE
 <ul>
 <li>Understanding State Hooks</li>
 <li>Choosing State Structure</li>
-<li></li>Pure Mode and Strict Mode
+<li>Pure Mode and Strict Mode</li>
 <li>Manipulating Objects and Nested Objects</li>
 <li>Working with Arrays</li>
 <li>Expandable Text - Exercise</li>
