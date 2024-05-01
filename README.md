@@ -15,23 +15,27 @@ Exercises 1 GETTING STARTED AND BUILDING COMPONENTS
 <li>Passing Children</li>
 </ul>
 
+Exercise 2 STYLING COMPONENTS
+<ul>
+<li>Styling using CSS</li>
+<li>Vanilla CSS</li>
+<li>CSS Modules</li>
+<li>CSS in JS</li>
+<li>Separation of Concerns</li>
+<li>Inline Styling</li>
+<li>Icons</li>
+</ul>
 
-# Exercise 2 STYLING COMPONENTS
-<li></li>Styling using CSS
-<li></li>Vanilla CSS
-<li></li>CSS Modules
-<li></li>CSS in JS
-<li></li>Separation of Concerns
-<li></li>Inline Styling
-<li></li>Icons
-
-# Exercise 3 MANAGING COMPONENT STATE
-<li></li>Understanding State Hooks
-<li></li>Choosing State Structure
+Exercise 3 MANAGING COMPONENT STATE
+<ul>
+<li>Understanding State Hooks</li>
+<li>Choosing State Structure</li>
 <li></li>Pure Mode and Strict Mode
-<li></li>Manipulating Objects and Nested Objects
-<li></li>Working with Arrays
-<li></li>Expandable Text - Exercise
+<li>Manipulating Objects and Nested Objects</li>
+<li>Working with Arrays</li>
+<li>Expandable Text - Exercise</li>
+</ul>
+
 
 
 
