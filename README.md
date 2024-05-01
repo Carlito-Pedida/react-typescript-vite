@@ -4,10 +4,7 @@ This is an exercise to master React 18 in Typescript
 
 Exercises 1 GETTING STARTED AND BUILDING COMPONENTS
 <ul>
-  <li>
-    React Ecosystem
-  </li>
-
+<li>React Ecosystem</li>
 <li>List-group</li>
 <li>Fragments</li>
 <li>Conditional Rendering</li>
