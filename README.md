@@ -1,8 +1,8 @@
 # React + TypeScript + Vite
 
-# This is an exercise to master React 18 in Typescript 
+This is an exercise to master React 18 in Typescript 
 
-# Exercises 1 GETTING STARTED AND BUILDING COMPONENTS
+Exercises 1 GETTING STARTED AND BUILDING COMPONENTS
 <ul>
   <li>
     React Ecosystem
