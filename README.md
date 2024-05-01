@@ -3,6 +3,7 @@
 # This is an exercise to master React 18 in Typescript 
 
 # Exercises 1 GETTING STARTED AND BUILDING COMPONENTS
+<ul>
 React Ecosystem
 List-group
 Fragments
@@ -12,6 +13,8 @@ Managing State
 Passing Data via Props
 Passing Functions via Props
 Passing Children
+</ul>
+
 
 # Exercise 2 STYLING COMPONENTS
 Styling using CSS
